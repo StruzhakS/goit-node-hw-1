@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index",
+    "dev": "nodemon index"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "i": "^0.3.7",
-    "npm": "^9.8.0"
+    "nanoid": "^3.3.4",
+    "npm": "^9.8.0",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
