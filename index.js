@@ -1,6 +1,5 @@
 import contactsService from './contacts.js';
 import yargs from 'yargs';
-// import { listContacts } from './contacts';
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
